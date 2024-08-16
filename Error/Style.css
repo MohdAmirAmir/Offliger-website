@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+}
+#error{
+    height:50%;
+    width:50%;
+  /*  background:url("Image/error.gif");
+    background-size:cover;
+    background-position:0 50%;*/
+    position:absolute;
+    top:25%;
+    left:25%;
+}
+@media (max-width:600px){
+    #error{
+        height:60%;
+        width:100%;
+        position:absolute;
+        left:0%;
+        top:20%;
+        background:url("Image/error.gif");
+        background-size:cover;
+        background-position:50% 50%;
+    }
+}
